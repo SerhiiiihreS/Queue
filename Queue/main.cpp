@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 
 
@@ -60,7 +60,7 @@ public:
 	{
 		Element* temp = Head;
 		int i = 0;
-		int e = 0;
+		int e = 4;
 		while (temp!=NULL)
 		{
 			temp = temp->Next;
@@ -75,7 +75,7 @@ public:
 			
 			i++;
 		}
-		if ( e == 0) {
+		if ( e ==4) {
 			cout << "Item not found."; 
 			return NULL;
 			
